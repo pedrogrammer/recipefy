@@ -1,6 +1,6 @@
 %btn {
 	display: inline-block;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 8px 20px;
 	margin: 3px;
 	border: 0;
@@ -19,5 +19,5 @@
 
 .btn-secondary {
 	@extend %btn;
-	// @include set-background($secondary-color);
+	background-color: $secondary-color;
 }

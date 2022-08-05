@@ -15,20 +15,22 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo"><a href="/">Recipefy</a></div>
+			<div class="logo"><a class="mx-2" href="/">Recipefy</a></div>
 		</header>
 		<main>
 			<section class="hero">
 				<div class="hero-content">
-					<h1 class="logo">Recipefy</h1>
-					<p class="description">Make the world a tastier place!</p>
+					<h1 class="logo my-2">Recipefy</h1>
+					<p class="description my-2">
+						Make the world a tastier place!
+					</p>
 				</div>
 			</section>
 			<section class="recipes">
-				<div class="action">
+				<div class="recipes-action">
 					<button class="btn-primary">➕ Add</button>
 				</div>
-				<div class="container p-2">
+				<div class="container p-2 m-2">
 					<ul>
 						<li>
 							<article class="p-1">
@@ -39,14 +41,24 @@
 									/>
 								</a>
 								<div class="info">
-									<h2>Spaghetti</h2>
-									<span class="p-1 my-1">Calories: 158</span>
-									<span class="p-1 my-1"
-										>Cook time: 30 mins</span
-									>
-								</div>
-								<div class="action">
-									<button class="btn-primary">🗑</button>
+									<div class="first-row">
+										<a href="./meal.html">
+											<h2>Spaghetti</h2>
+										</a>
+										<div class="action">
+											<button class="btn-primary">
+												🗑
+											</button>
+										</div>
+									</div>
+									<div class="second-row">
+										<span class="btn-secondary"
+											>Calories: 158</span
+										>
+										<span class="btn-secondary"
+											>Cook time: 30 mins</span
+										>
+									</div>
 								</div>
 							</article>
 						</li>
